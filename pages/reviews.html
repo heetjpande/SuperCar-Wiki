@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Reviews - Supercar Website</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="../assets/js/script.js"></script>
+
+  <style>
+    main {
+      padding: 50px;
+      text-align: center;
+    }
+
+    #reviews {
+      margin-bottom: 50px;
+    }
+
+    h1 {
+      padding: 20px;
+      font-size: 36px;
+      margin-bottom: 30px;
+      color: #222;
+    }
+
+    .review {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #2196f3;
+      border-radius: 15px;
+      text-align: left;
+      transition: 0.3s;
+
+    }
+
+    .review:hover,
+    .review:focus,
+    .review:active {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+
+    .review .author {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .review .content {
+      margin-bottom: 10px;
+    }
+
+    .review .rating {
+      color: #222;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="logo"><a href="../index.html">SuperCharged</a></li>
+        <li><a class="err" href="../index.html">Home</a></li>
+        <li><a class="err" href="./search.html">Supercars</a></li>
+        <li><a class="err" href="#">Reviews</a></li>
+        <li><a class="err" href="./about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="reviews">
+      <h1>Reviews</h1>
+      <div class="review">
+        <div class="author">John Snow</div>
+        <div class="content">The supercar's collection this website has exceeded my expectations. The design,
+          performance, and attention to detail are exceptional.</div>
+        <div class="rating">Rating: 9.5/10</div>
+      </div>
+      <div class="review">
+        <div class="author">Jane Smith</div>
+        <div class="content">I've always been a fan of supercars, and this website has been a fantastic resource for
+          exploring different models and their specifications.</div>
+        <div class="rating">Rating: 8/10</div>
+      </div>
+      <div class="review">
+        <div class="author">David Johnson</div>
+        <div class="content">The supercar collection on this website is impressive. The detailed information provided
+          for each car helped me make an informed decision.</div>
+        <div class="rating">Rating: 9/10</div>
+      </div>
+      <div class="review">
+        <div class="author">William Butcher</div>
+        <div class="content">The supercar collection on this website is impressive. The detailed information provided
+          for each car helped me make an informed decision.</div>
+        <div class="rating">Rating: 9/10</div>
+      </div>
+    </section>
+  </main>
+  <p id="f-btn" onclick="topFunction()"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+    </svg></p>
+  <footer>
+    <p>&copy; 2023 Supercar Website. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
